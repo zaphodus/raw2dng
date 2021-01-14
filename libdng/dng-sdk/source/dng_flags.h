@@ -214,7 +214,7 @@
 #else
 
 #ifndef qXCodeRez
-#error Unable to figure out byte order.
+#define qDNGBigEndian 0
 #endif
 
 #endif
