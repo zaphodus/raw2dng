@@ -42,7 +42,7 @@
 			#define kBigEndianHost 1
 			#define kLittleEndianHost 0
 		#else
-			#error "Must define kBigEndianHost as 0 or 1 in the makefile."
+			#define kBigEndianHost 0
 		#endif
 	#endif
 #else
